@@ -5,6 +5,8 @@ import tensorflow as tf
 
 from matplotlib import pyplot
 
+
+#first load and parse the data
 data = pd.read_csv("spread_features.csv", index_col=0, parse_dates=True)
 
 s = data["spread"]
