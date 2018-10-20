@@ -28,11 +28,4 @@ A constraint is added by a penalty term
 that heavily disfavors losses that are more than 1000.
 
 L2 regulation term and dropout layer is also used to prevent overfitting.
->>>>>>> 0615ecdb4a4a421193c8d72d39f5d1d4b9351aa6
-
-A constraint is added by a penalty term 
-![](https://latex.codecogs.com/gif.latex?e%5E%7B-%28%5Cmin%28vs%29&plus;1000%29%7D)
-that heavily disfavors losses that are more than 1000.
-
-L2 regulation term and dropout layer is also used to prevent overfitting.
 
