@@ -5,7 +5,7 @@ We have 5 engineered features as a vector X for each hour, and the corresponding
 
 In addition to the explanatory power of the features, there are also autoregressive features that can be derived from the timeseries and the spread is related to the features of the past 48 hours.
 
-The goal is to learn a function f(X) that returns a vector of trading volumes v subject to the risk constraint of our worst loss, which for this exercise is 1000 dollars.  $v$ can take on both + values ($
+The goal is to learn a function f(X) that returns a vector of trading volumes v subject to the risk constraint of our worst loss, which for this exercise is 1000 dollars.  v can take on both + values 
 
 Formally, the problem becomes:
 
